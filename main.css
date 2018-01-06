@@ -359,11 +359,13 @@ footer{
 }
 
 footer p{
+	
 	font-family: 'Inika', serif;
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
 	padding:10px;
+	float: right;
 }
 footer ul {
 	position: absolute;
