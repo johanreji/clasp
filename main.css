@@ -160,6 +160,8 @@ nav{
     width: 400px; 
     height: 400px; 
     padding: 0px; 
+    margin-bottom: 50px;
+
     
 }
 
@@ -177,7 +179,38 @@ section {
 	min-height: 300px;
 }
 
+footer{
 
+	min-height: 200px;
+	width: 100%;
+	background-image: url("jeans.jpg");
+	margin-top: 10px;
+	color: white;
+	padding: 0px;
+	position: relative;
+	bottom: 0px;
+
+}
+
+footer p{
+	font-family: 'Inika', serif;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding:10px;
+}
+footer ul {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	list-style: none;
+	padding: 10px;
+}
+footer ul li a{
+	font-family: 'Inika', serif;
+	text-decoration: none;
+	color:white;
+}
 
 
 }
@@ -284,6 +317,67 @@ nav ul li a:hover{
 	color: red;
 
 }
+#slideshow { 
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right:  auto; 
+    overflow: hidden; 
+    width: 400px; 
+    height: 400px; 
+    padding: 0px; 
+    margin-bottom: 30px;
+
+    
+}
+
+#slideshow > div { 
+border: 5px solid black;
+    position: absolute;
+
+     
+}
+
+
+section {
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+	min-height: 300px;
+}
+
+footer{
+
+	min-height: 200px;
+	width: 100%;
+	background-image: url("jeans.jpg");
+	margin-top: 20px;
+	color: white;
+	padding: 0px;
+	position: relative;
+	bottom: 0px;
+
+}
+
+footer p{
+	font-family: 'Inika', serif;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding:10px;
+}
+footer ul {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	list-style: none;
+	padding: 10px;
+}
+footer ul li a{
+	font-family: 'Inika', serif;
+	text-decoration: none;
+	color:white;
+}
+
 
 
 }
