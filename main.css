@@ -66,47 +66,90 @@ body{
 	padding: 0px;
 }
 header h1{
-	margin-bottom: 0px;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 5px;	
 	font-size: 50px;
 }
 
 
 header p{
+	margin-top: 10px;
 	font-family: 'Inika', serif;
-	font-size: 35px;
+	font-size: 25px;
+	margin-bottom: 5px;
 }
 .logo{
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	
+	
 }
 
 
 nav{
-	margin: 0px;
+	position: relative;
+	vertical-align: bottom;
 	width: 100%;
-	height: 40px;
-	display: block;
-	background-color: #404040;
+	height: 50px;
+	
+	background-color: #000000;
+	opacity: 0.8;
+	
 }
-/*.burger{
+.burger{
+	position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    vertical-align: middle;
 	
 	height: 40px;
 	
 	width: 40px;
 	background-image: url("burgericon.png");
-	background-position: 98%;
+	background-position: center center;
+	
+	display: inline-block;
+
 	background-repeat: no-repeat;
 
 	}
+
 	nav ul{
+		position: absolute;
+		top: 35px;
+		width: 100%;
 		overflow: hidden;
 		height: 0px;
+		background-color: #000000;
+	opacity: 0.8;
+		list-style: none;
+
+	}
+	nav ul li{
+		display:block;
+		
+		width: 100%;
+		text-align: left;
+		list-style: none;
+		margin:0px;
+
+	}
+	nav ul li a{
+		color: #fff;
+		padding: 10px;
+		border-bottom: 2px solid white;
+		display: block;
+		margin:0px;
+		text-decoration: none;
 	}
 	nav ul.open{
+		padding: 0px;
+
 		height: auto;
-	}*/
+	}
 
 
 
