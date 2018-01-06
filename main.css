@@ -193,6 +193,7 @@ footer{
 }
 
 footer p{
+	text-align: right;
 	font-family: 'Inika', serif;
 	position: absolute;
 	right: 10px;
@@ -359,7 +360,7 @@ footer{
 }
 
 footer p{
-	
+
 	font-family: 'Inika', serif;
 	position: absolute;
 	right: 10px;
