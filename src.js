@@ -26,3 +26,6 @@ $(window).scroll(function () {
       $('nav').removeClass('navbar-fixed');
     }
   });
+
+var hgt = $(window).height();
+    $("#main").css("height", hgt)
