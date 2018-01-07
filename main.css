@@ -52,6 +52,7 @@
 }
 
 header{
+	width: 100%;
 	font-family: 'Viga', sans-serif;
 	position: relative;
 	height: 500px;
@@ -67,6 +68,7 @@ header{
 	padding: 0px;
 }
 body{
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -97,6 +99,12 @@ header p{
 	margin-right: auto;
 	
 	
+}
+
+.navbar-fixed{
+	top: 0px;
+
+	position: fixed;
 }
 
 
@@ -164,41 +172,63 @@ nav{
 		height: auto;
 	}
 	
+.slide{
+width: 100%;
+position: relative;
+margin:0px;
+padding: 0px;
+height: 300px; 
+border: 5px solid black;
 
-#slideshow { 
-	margin-top: 50px;
-    margin-left: auto;
-    margin-right:  auto; 
-    overflow: hidden; 
-    width: 300px; 
-    height: 300px; 
+
+}
+
+.slide > div{
+	position: absolute;
+	margin-top: 0px;
+    margin-left: 0;
+    margin-right:  0; 
     padding: 0px; 
-    margin-bottom: 50px;
 
     
+    margin-bottom: 0px;
+	background-size: contain;
+
+}
+.slide div img{
+	height: 290px;
+	width: 100%;
+	object-fit: cover;
+
 }
 
-#slideshow > div { 
-border: 5px solid black;
-    position: absolute;
-
-     
+main{
+	background-image: url("main.jpg");
+	background-position: top center ;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 20px;
+margin:0px;
 }
-
 
 section {
+	font-family: 'Viga', sans-serif;
+	
 	font-size: 20px;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 	min-height: 300px;
+	color: white;
 }
 
 footer{
-
+	display: block;
 	min-height: 200px;
 	width: 100%;
-	background-image: url("jeans.jpg");
-	margin-top: 10px;
+	background-image: url("footer.jpg");
+	background-position: center right;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	color: white;
 	padding: 0px;
 	position: relative;
@@ -256,7 +286,7 @@ footer ul li a{
 header{
 	font-family: 'Viga', sans-serif;
 	position: relative;
-	height: 250px;
+	height: 500px;
 	text-align: center;
 	background-image: url("cover.jpg");
 	background-position: center;
@@ -272,16 +302,18 @@ body{
 	padding: 0px;
 }
 header h1{
-	margin-top: 50px;
+	height: 250px;
+	margin-top: 150px;
 	
-	
+	display: block;
 	margin-bottom: 0px;
 	letter-spacing: 5px;	
-	font-size: 50px;
+	font-size: 100px;
 }
 
 
 header p{
+display: block;
 
 	margin-top: 10px;
 	font-family: 'Inika', serif;
@@ -296,6 +328,11 @@ header p{
 	margin-right: auto;
 	
 	
+}
+.navbar-fixed{
+	top: 0px;
+	
+	position: fixed;
 }
 nav{
 	position: absolute;
