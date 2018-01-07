@@ -194,7 +194,7 @@ position: relative;
 margin:0px;
 padding: 0px;
 height: 300px; 
-border: 5px solid black;
+border: 5px ridge grey;
 
 
 }
@@ -261,13 +261,28 @@ footer p{
 	bottom: 10px;
 	padding:10px;
 }
-footer ul {
+.navg{
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
 	list-style: none;
 	padding: 10px;
 }
+.social{
+	
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
+	list-style: none;
+	padding: 10px;
+
+}
+.social li{
+	display: inline;
+}
+
 footer ul li a{
 	font-family: 'Inika', serif;
 	text-decoration: none;
@@ -452,8 +467,10 @@ footer{
 
 	min-height: 200px;
 	width: 100%;
-	background-image: url("jeans.jpg");
-	
+	background-image: url("footer.jpg");
+	background-position: center right;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	color: white;
 	padding: 0px;
 	position: relative;
@@ -470,17 +487,34 @@ footer p{
 	padding:10px;
 	float: right;
 }
-footer ul {
+.navg{
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
 	list-style: none;
 	padding: 10px;
 }
+.social{
+	
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
+	list-style: none;
+	padding: 10px;
+
+}
+.social li{
+	display: inline;
+}
 footer ul li a{
 	font-family: 'Inika', serif;
 	text-decoration: none;
 	color:white;
+}
+footer ul li a:hover{
+	text-decoration: underline;
 }
 
 
