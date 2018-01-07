@@ -61,7 +61,7 @@ header:before{
   height: 100%;
   z-index: -10;
   background-image: url("cover.jpg");
-	
+	background-attachment: fixed;
 	background-position: center right;
 	
 	background-repeat: no-repeat;
